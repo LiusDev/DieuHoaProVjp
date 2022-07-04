@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div id="air_conditioner" class="air_conditioner">
+      <img src="./assets/img/air_conditioner.png" alt="">
+    </div>
+    <div id="air" class="air_conditioner">
+      <img src="./assets/img/air.png" alt="">
+    </div>
+  </div>
+
+  <div class="remote">
+    <h3>remote</h3>
+    <button type="button" class="btn_on btn" onclick="turnOn()">ON</button>
+    <!-- Nút bật đã có sẵn hàm Bật -->
+    <button type="button" class="btn_off btn" onclick="turnOff()">OFF</button>
+    <!-- Nút tắt đã có sẵn hàm Tắt -->
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
