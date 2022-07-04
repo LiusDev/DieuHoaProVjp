@@ -18,25 +18,24 @@ body {
 }
 
 .wrapper {
-    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .air_conditioner {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%;
+    max-width: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .air_conditioner img {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -58,6 +57,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     padding: 48px 0;
+    margin-right: 3%;
 }
 
 .remote h3 {
